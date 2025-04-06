@@ -14,7 +14,6 @@ For the full details, problem description, and API requirements, please see the 
     *   `Percolation.java`: Models the percolation system. *(Note: Different implementations addressing the 'backwash' problem exists.)*
     *   `PercolationStats.java`: Runs Monte Carlo simulations.
     *   `PercolationVisualizer.java`: Visualizes the process.
-*   `/dependencies`: Contains the required `algs4.jar` library from the course.
 *   `/inputs-visualizer`: Contains sample input text files used for testing and visualization (e.g., `input20.txt`).
 
 ## Core Concept
@@ -28,12 +27,16 @@ These commands assume you are running them from the **root directory** of this r
 1.  **Choose Implementation:** The visualizer uses `Percolation.java`. If you have multiple versions (e.g., `Percolation-noBackwash.java`), **rename the one you want to use to `Percolation.java`** inside the `src` directory. The `-noBackwash` version is recommended for correct visualization of `isFull()`.
 
 2.  **Compile:**
+* Download [algs4.jar](<https://algs4.cs.princeton.edu/code/algs4.jar>) to, say ~/algs4/algs4.jar.
     ```bash
-    # On Linux/macOS (use : as separator in -cp)
-    javac -cp .:/dependencies/algs4.jar src/Percolation.java src/PercolationVisualizer.java
+    # On Linux/macOS
+    javac -cp .:~/algs4/algs4.jar src/Percolation.java src/PercolationVisualizer.java
+    ```
+* Download [algs4.jar](<https://algs4.cs.princeton.edu/code/algs4.jar>) to, say C:\Users\username\algs4\algs4.jar
 
-    # On Windows (use ; as separator in -cp)
-    javac -cp .;\dependencies\algs4.jar src/Percolation.java src/PercolationVisualizer.java
+    ```bash
+    # On Windows
+    javac -cp .;C:\Users\username\algs4\algs4.jar src/Percolation.java src/PercolationVisualizer.java
     ```
     *This command tells `javac` where to find the `algs4.jar` library (`dependencies/algs4.jar`) and the source files (`src`), then specifies which source files within the `src` directory to compile.*
 
