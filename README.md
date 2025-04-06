@@ -56,6 +56,10 @@ These commands assume you are running them from the **root directory** of this r
     *Replace `<input-file.txt>` with an actual filename from the `/inputs` directory (e.g., `input20.txt`).*
     *This command tells `java` where to find the compiled classes (`src`) and the library (`dependencies/algs4.jar`), which program to run (`PercolationVisualizer`), and passes the path to an input file as an argument.*
 
+4.  **Expected output**
+
+<img src="inputs-visualizer/input50.png" width="40%" alt="Visualizer example">
+
 ## Assessment Results:
 This implementation achieved a maximum score (and exceeded memory expectations) on the course assignment autograder:
 
