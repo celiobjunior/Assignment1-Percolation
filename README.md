@@ -1,5 +1,7 @@
 # Algorithms I: Percolation Assignment (Princeton University)
 
+<img src="images/logo.png" width="40%" alt="Assignment logo">
+
 This repository contains the solution for the Percolation programming assignment, part of Princeton University's Algorithms, Part I course available on Coursera. The assignment involves modeling a system to determine when it "percolates" and using simulations to estimate the percolation threshold.
 
 ## Assignment Goal
