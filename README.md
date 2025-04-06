@@ -6,8 +6,8 @@ This repository contains the solution for the Percolation programming assignment
 
 The core task is to create a data type (`Percolation.java`) that models an n-by-n grid where sites can be open or blocked. The system percolates if there's a path of open sites from the top row to the bottom row. A second data type (`PercolationStats.java`) uses this model to run Monte Carlo simulations, estimating the fraction of open sites needed for percolation (the percolation threshold, p*).
 
-<img src="images/percolates-no.png" width="50%" alt="Percolation example">
-<img src="images/percolates-yes.png" width="50%" alt="Percolation example">
+<img src="images/percolates-no.png" width="30%" alt="Percolation example">
+<img src="images/percolates-yes.png" width="30%" alt="Percolation example">
 
 For the full details, problem description, and API requirements, please see the [Official Percolation Assignment Specification](<https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php>).
 
