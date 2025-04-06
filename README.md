@@ -61,7 +61,7 @@ These commands assume you are running them from the **root directory** of this r
 <img src="inputs-visualizer/input50.png" width="40%" alt="Visualizer example">
 
 ## Assessment Results:
-This implementation achieved a maximum score (and exceeded memory expectations) on the course assignment autograder:
+This implementation achieved a maximum score (101.25%), ensuring correctness by solving the backwash problem and also passing the bonus memory usage requirement.
 
 * Correctness:  38/38 tests passed
 * Memory:       9/8 tests passed
